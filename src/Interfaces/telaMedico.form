@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="botaoCadastrarDadosAdicionais" max="32767" attributes="0"/>
+                          <Component id="botaoAtualizarDadosAdicionais" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="botaoRemoverDadosAdicionais" max="32767" attributes="0"/>
+                          <Component id="botaoCadastrarProntuario" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="botaoAtualizarProntuario" min="-2" max="-2" attributes="0"/>
+                          <Component id="botaoRemoverProntuario" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="botaoGerarRelatorio" min="-2" max="-2" attributes="0"/>
+                          <Component id="botaoSair" min="-2" pref="168" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="253" max="-2" attributes="0"/>
+                      <Component id="labelMenuMedico" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="20" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+              <Component id="labelMenuMedico" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="77" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="botaoGerarRelatorio" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="botaoCadastrarDadosAdicionais" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="botaoRemoverDadosAdicionais" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="botaoAtualizarProntuario" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="botaoSair" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="botaoAtualizarDadosAdicionais" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="botaoCadastrarProntuario" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="botaoRemoverProntuario" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="30" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="botaoCadastrarDadosAdicionais">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cadastrar dados &#xa;adicionais"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="botaoAtualizarDadosAdicionais">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Atualizar dados adicionais"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botaoAtualizarDadosAdicionaisActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="botaoRemoverDadosAdicionais">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="remover dados adicionais"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="botaoCadastrarProntuario">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cadastrar prontuario"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="botaoAtualizarProntuario">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Atualizar prontuario"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botaoAtualizarProntuarioActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="botaoRemoverProntuario">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Remover prontuario"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="botaoGerarRelatorio">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Gerar relatorio medico"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="botaoSair">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Sair"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="clicar"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelMenuMedico">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Ubuntu" size="36" style="3"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Menu do M&#xe9;dico"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
